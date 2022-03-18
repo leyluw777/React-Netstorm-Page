@@ -1,0 +1,33 @@
+@mixin button-style {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 40px;
+    transition: .5s;
+
+    &:hover {
+        cursor: pointer;
+        background: rgb(69, 40, 220);
+        background: linear-gradient(150deg, rgba(69, 40, 220, 1) 0%, rgba(87, 4, 138, 1) 100%);
+        border: 2px solid transparent;
+    }
+}
+
+@mixin p-color {
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(150deg, rgba(69,40,220,1) 0%, rgba(87,4,138,1) 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                position: relative;
+
+                &:after {
+                    content: "";
+                    width: 50px;
+                    height: 3px;
+                    background: linear-gradient(150deg, rgba(69, 40, 220, 1) 0%, rgba(87, 4, 138, 1) 100%);
+                    position: absolute;
+                    top: 50%;
+                    left: 100px;
+                }
+}
