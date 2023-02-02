@@ -24,4 +24,4 @@ Technologies used in project:
 * All cards have their own hover styles with transitions, so you can check it on demo version. 
 * For optimizing code components and props were used for creating cards of same design and shape, 
 some inner elements such as images, texts were changed.
-
+* In the second section you can see the slick slider which is manipulated by dots below.
