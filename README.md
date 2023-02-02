@@ -12,11 +12,11 @@ This is single page fully responsive website which was created completely on Rea
 <br/>
 
 ## Technologies
-As it was mentioned before, the webpage was completely created in ReactJS without using HTML. For styling and responsiveness there was used Bootstrap and css attached to js files.
+As it was mentioned before, the webpage was completely created in ReactJS without using HTML. For styling and responsiveness there was used Bootstrap and SCSS attached to js files.
 Technologies used in project:
 * React
 * Bootstrap
-* CSS
+* SCSS
 
 
 ## Features
