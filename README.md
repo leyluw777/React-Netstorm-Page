@@ -22,6 +22,6 @@ Technologies used in project:
 ## Features
 * The website is fully responsive and works on all devices. On small devices, there is toggle menu for navbar.
 * All cards have their own hover styles with transitions, so you can check it on demo version. 
-* For optimizing code components are used for creating cards of same design and shape, 
+* For optimizing code components and props were used for creating cards of same design and shape, 
 some inner elements such as images, texts were changed.
 
